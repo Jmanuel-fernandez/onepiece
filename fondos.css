@@ -1,0 +1,110 @@
+.div1,.div2,.div3{
+    width: 100%;
+    height: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    background-color: #aaf;
+}
+.div2{
+    background: #ee5;
+}
+.div3{
+    background-color:#5b4f ;
+}
+.caja1,.caja2,.caja3{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    padding: 40px;
+}
+.jinbe,.zoro,.luffy{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #000;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 0px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+h6{
+    font-size: 18px;
+    margin-top: 0;
+}
+p{
+    font-family: sans-serif;
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 0;
+    border-left: none;
+    border-right: none;
+}
+.head{
+    width: 100%;
+    height: 90px;
+    border: none;
+    padding:50px;
+    background-color: #000e;
+    margin: 0;
+    justify-content: space-between; 
+
+}
+.barra{
+    width: 100%;
+    height: 32px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: #000e;
+    border: none;
+    box-shadow: 0px 30px 20px red;
+}
+li{
+    display: inline;
+    font-size: 20px;
+    margin: 60px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #eeee;
+    text-transform: uppercase;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+.Bitácora{
+    color: #e33;
+}
+.del{
+    color: #ee5;
+}
+img{ height: 50px;
+    width: 50px;
+}
